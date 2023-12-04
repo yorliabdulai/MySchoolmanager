@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8XDYFLzmiOllm9LHoD4H3jJiHFKgNuW4&callback=console.debug&libraries=maps,marker&v=beta">
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">Our School</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home"><i class="fas fa-home"></i> Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about"><i class="fas fa-info-circle"></i> About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#programs"><i class="fas fa-graduation-cap"></i> Programs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faculty"><i class="fas fa-users"></i> Faculty</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#admissions"><i class="fas fa-user-graduate"></i> Admissions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+
+    <section id="home" class="py-5">
+        <div class="container text-center">
+            <div id="imageSlideshow" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="childreen.jpg" class="img-fluid" alt="Slide 1">
+                        <div class="carousel-caption">
+                            <h2>Welcome to Our School</h2>
+                            <p>Your child's journey to success starts here. We offer quality education for all age groups.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="books.jpg" class="img-fluid" alt="Slide 2">
+                        <div class="carousel-caption">
+                            <h2>Explore Our Programs</h2>
+                            <p>Discover a range of programs designed to nurture creativity and critical thinking.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="bus.jpg" class="img-fluid" alt="Slide 3">
+                        <div class="carousel-caption">
+                            <h2>Engaging Learning Environment</h2>
+                            <p>Our classrooms are designed to inspire a love for learning through interactive experiences.</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#imageSlideshow" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#imageSlideshow" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <div id="aboutSlideshow" class="carousel slide mb-4" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="madam1.jpg" class="img-fluid" alt="About Slide 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="master1.jpg" class="img-fluid" alt="About Slide 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="christina-wocintechchat-com-c-mgSuxqpzA-unsplash.jpg" class="img-fluid" alt="About Slide 3">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#aboutSlideshow" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#aboutSlideshow" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+            <h2 class="display-2 text-center">About Our School</h2>
+            <p>We are dedicated to providing a nurturing and engaging learning environment for all students. With a focus on holistic education, our programs encourage creativity, critical thinking, and character development.</p>
+            <p><i class="fas fa-graduation-cap"></i> Experienced Faculty</p>
+            <p><i class="fas fa-chalkboard-teacher"></i> Interactive Classes</p>
+            <p><i class="fas fa-child"></i> Student-Centered Approach</p>
+            <div class="text-center mt-4">
+                <h3>Explore Our School Gallery</h3>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="gallery-item">
+                            <img src="library.jpg" class="img-fluid" alt="Gallery Image 1">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="gallery-item">
+                            <img src="grad.jpg" class="img-fluid" alt="Gallery Image 2">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="gallery-item">
+                            <img src="kenny-eliason-zFSo6bnZJTw-unsplash.jpg" class="img-fluid" alt="Gallery Image 3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="programs" class="py-5 ">
+        <div class="container text-center">
+            <h2 class="display-2">Our Programs</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="program-card">
+                        <i class="fas fa-baby fa-4x mb-3"></i>
+                        <h3 class="display-5">Creche</h3>
+                        <p>A caring environment for your little ones to explore and learn.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="program-card">
+                        <i class="fas fa-child fa-4x mb-3"></i>
+                        <h3 class="display-5">Kindergarten</h3>
+                        <p>Building a strong foundation for lifelong learning.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="program-card">
+                        <i class="fas fa-school fa-4x mb-3"></i>
+                        <h3 class="display-5">Basic</h3>
+                        <p>Empowering students with fundamental knowledge and skills.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="program-card">
+                        <i class="fas fa-graduation-cap fa-4x mb-3"></i>
+                        <h3 class="display-5">Junior High</h3>
+                        <p>Preparing students for a successful transition to higher education.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="faculty" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="display-2">Our Faculty</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="faculty-card">
+                        <img src="smiling-woman-writing-notes-tablet-digital-device.jpg" class="img-fluid faculty-image" alt="Faculty 1">
+                        <h3 class="display-5">John Doe</h3>
+                        <p class="mb-2">Principal</p>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                        <p class="mt-2"><i class="fas fa-phone"></i> 123-456-7890</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="faculty-card">
+                        <img src="businessman-presenting-his-project-colleagues.jpg" class="img-fluid faculty-image" alt="Faculty 2">
+                        <h3 class="display-5">Jane Smith</h3>
+                        <p class="mb-2">Teacher</p>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                        <p class="mt-2"><i class="fas fa-phone"></i> 987-654-3210</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="faculty-card">
+                        <img src="portrait-female-teacher-holding-notepad-green.jpg" class="img-fluid faculty-image" alt="Faculty 3">
+                        <h3 class="display-5">Alex Johnson</h3>
+                        <p class="mb-2">Counselor</p>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                        <p class="mt-2"><i class="fas fa-phone"></i> 555-123-4567</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="admissions" class="py-5">
+        <div class="container">
+            <h2 class="display-2 text-center">Admissions</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="graduation.jpg" alt="Admissions" class="img-fluid mb-3">
+                </div>
+                <div class="col-md-6">
+                    <h3 class="display-4">Enroll Your Child</h3>
+                    <p>We are excited to welcome your child to our school! Our admissions process is designed to ensure a smooth transition for your child into our learning community.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-check"></i> Explore Our Programs</li>
+                        <li><i class="fas fa-check"></i> Submit an Application Form</li>
+                        <li><i class="fas fa-check"></i> Attend an Admissions Interview</li>
+                        <li><i class="fas fa-check"></i> Receive Enrollment Confirmation</li>
+                    </ul>
+                    <p>Download our <a href="Admission _Form.pdf" download>Admission Form</a> to get started on the enrollment process.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="contact" class="bg-light py-5">
+        <div class="container">
+            <h2 class="display-2 text-center">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="contact-info">
+                        <h3 class="display-3">Contact Information</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 School Street, City</p>
+                        <p><i class="fas fa-phone"></i> Phone: 123-456-7890</p>
+                        <p><i class="fas fa-envelope"></i> Email: info@ourschool.com</p>
+                    </div>
+                    <div>
+                        <script>
+                            function initMap() {
+                              var map = new google.maps.Map(document.getElementById('map'), {
+                                center: {lat: -34.397, lng: 150.644},
+                                zoom: 8
+                              });
+                            }
+                          </script>
+                          <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8XDYFLzmiOllm9LHoD4H3jJiHFKgNuW4&callback=initMap"></script>
+                          <div id="map" class="col-md-6" style="height: 400px; width: 100%;"></div>
+
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact-form">
+                        <h3 class="display-3">Send Us a Message</h3>
+                        <form action="#" method="POST">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    
+
+    <footer class="bg-dark text-white py-3">
+        <div class="container text-center">
+            <div class="footer-links">
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+            <p>All rights reserved &copy; Our School</p>
+            <p>Developed by YorTech</p>
+            <p>Email: contact@ourschool.com</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // JavaScript code remains the same
+    </script>
+</body>
+
+</html>
